@@ -27,5 +27,33 @@
     "other_ssh_options": "str",
     "monitor_port": "int"
   },
-  "image": "apexinfosys/mcu-ssh-tunnel"
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  "image": "odinuge/hassio-addon-autossh-{arch}"
 }
