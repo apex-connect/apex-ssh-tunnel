@@ -2,7 +2,7 @@
 
 https://apexinfosys.in
 
-## Cloud Integration [![](https://images.microbadger.com/badges/version/odinuge/hassio-addon-autossh-armhf.svg)]
+## Cloud Integration
 This integration creates both Public & Private SSH keys, and uses it to connect to to the given instance on the Apex MCU+ server. The public key can be found in the log after the first startup.
 
 Remember to set `GatewayPorts clientspecified` in sshd-config if you
