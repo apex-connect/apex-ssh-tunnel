@@ -1,0 +1,31 @@
+{
+  "name": "Apex MCU+ SSH Tunnel",
+  "version": "0.3.0",
+  "slug": "apexsshtunnel",
+  "description": "Connects over Apex MCU+ Cloud through secure SSH Tunnel.",
+  "url": "https://github.com/apex-connect/apex-ssh-tunnel",
+  "arch": ["armv7", "armhf", "amd64", "aarch64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "host_network": true,
+  "map": ["config:rw"],
+  "options": {
+    "hostname": "remoteserver-.apexinfosys.in",
+    "ssh_port": "22",
+    "username": "root",
+    "remote_forwarding": ["4440_:localhost:1702"],
+    "local_forwarding": [""],
+    "other_ssh_options": "-v",
+    "monitor_port": "0"
+  },
+  "schema": {
+    "hostname": "str",
+    "ssh_port": "int",
+    "username": "str",
+    "remote_forwarding": ["str"],
+    "local_forwarding": ["str"],
+    "other_ssh_options": "str",
+    "monitor_port": "int"
+  },
+  "image": "apexinfosys/mcu-ssh-tunnel-{arch}"
+}
