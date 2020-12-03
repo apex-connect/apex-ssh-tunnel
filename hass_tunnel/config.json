@@ -1,7 +1,7 @@
 {
   "name": "Apex MCU+ SSH Tunnel",
   "version": "0.4.0",
-  "slug": "apexssh",
+  "slug": "autossh",
   "description": "Connects over Apex MCU+ Cloud through secure SSH Tunnel",
   "url": "https://github.com/apex-connect/apex-ssh-tunnel",
   "startup": "application",
