@@ -1,7 +1,7 @@
 {
   "name": "Apex MCU+ SSH Tunnel",
   "version": "0.3.0",
-  "slug": "apexsshtunnel",
+  "slug": "autossh",
   "description": "Connects over Apex MCU+ Cloud through secure SSH Tunnel.",
   "url": "https://github.com/apex-connect/apex-ssh-tunnel",
   "arch": ["armv7", "armhf", "amd64", "aarch64", "i386"],
@@ -27,5 +27,5 @@
     "other_ssh_options": "str",
     "monitor_port": "int"
   },
-  "image": "apexinfosys/mcu-ssh-tunnel-{arch}"
+  "image": "odinuge/hassio-addon-autossh-{arch}"
 }
