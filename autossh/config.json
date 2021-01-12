@@ -28,5 +28,6 @@
     "other_ssh_options": "str",
     "monitor_port": "int",
     "gatetime": "int"
-  }
+  },
+  "image": "odinuge/hassio-addon-autossh-{arch}"
 }
