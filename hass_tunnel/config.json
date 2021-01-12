@@ -7,13 +7,12 @@
   "url": "https://github.com/apex-connect/apex-ssh-tunnel",
   "startup": "application",
   "boot": "auto",
-  "host_network": true,
   "map": ["config:rw"],
   "options": {
-    "hostname": "remoteserver-.apexinfosys.in",
+    "hostname": "remote.apexinfosys.in",
     "ssh_port": "22",
-    "username": "root",
-    "remote_forwarding": ["4440_:localhost:1702"],
+    "username": "user",
+    "remote_forwarding": ["4440:localhost:1702"],
     "local_forwarding": [""],
     "other_ssh_options": "-v",
     "monitor_port": "0"
@@ -26,34 +25,5 @@
     "local_forwarding": ["str"],
     "other_ssh_options": "str",
     "monitor_port": "int"
-  },
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  "image": "odinuge/hassio-addon-autossh-{arch}"
+  }
 }
